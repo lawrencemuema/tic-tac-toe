@@ -132,7 +132,7 @@ def ui_elements():
             for item in box_val:
                 box_val[item]["value"] = "blank"
 
-        sectors = ["pid1","pid2","pid3","pid4","pid5","pid6","pid7","pid8","pid9","pid10","pid11","pid12","pid13","pid14","pid15","pid16"]
+        sectors = ["pid1","pid2","pid3","pid","pid5","pid6","pid7","pid8","pid9","pid10","pid11","pid12","pid13","pid14","pid15","pid16"]
         for box in sectors:
              #to check if box already has input
             if pids == box:
